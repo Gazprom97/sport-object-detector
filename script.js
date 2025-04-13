@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function classify() {
     const input = document.getElementById("userInput").value.toLowerCase();
     let result = "Не удалось определить";
@@ -15,7 +15,7 @@ function classify() {
 
     document.getElementById("result").textContent = "Распознанный предмет: " + result;
 }
-=======
+
 function classify() {
     const input = document.getElementById("userInput").value.toLowerCase();
     let result = "Не удалось определить";
@@ -32,4 +32,4 @@ function classify() {
 
     document.getElementById("result").textContent = "Распознанный предмет: " + result;
 }
->>>>>>> 67436dde8b998d7274a97f4f02b485ee4eabc757
+
